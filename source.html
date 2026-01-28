@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style>.lw { font-size: 60px; font-family: Arial, Helvetica, sans-serif; }</style>
+            </head>
+            <body>
+                
+  
+    <meta charset="UTF-8">
+    <title>My 1st Calulator</title>
+  
+
+    <center>
+  <h2>⭐My Calculator 我的計算機⭐</h2>
+  <h6>Developer: YANGXU</h6>
+  <hr>
+  <input type="text" id="formula">
+  <button onclick="apple()">Calculate!</button>
+  <p id="answer">7</p>
+  <center>
+
+ 
+                <script>function apple(){
+    var formula = document.getElementById("formula").value;
+    var result = eval(formula);
+    document.getElementById("answer").innerText = result;
+}</script>
+            
+        
+    </center></center></body>
